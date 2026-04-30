@@ -14,6 +14,7 @@ class Cafe:
         d ={"name":self.name,
             "address": self.address,
             "price": self.price,
+            "program": self.program,
             "benefits": self.benefits,
             "rating": self.rating}
         return d
@@ -22,6 +23,7 @@ class Cafe:
         cafea = Cafe(name = d["name"], 
                      address = d["address"],
                      price = d["price"],
+                     program = d["program"],
                      benefits = d["benefits"],
                      rating = d["rating"])
         return cafea
