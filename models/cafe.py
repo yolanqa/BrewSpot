@@ -10,7 +10,7 @@ class Cafe:
     def __str__(self):
         return f"Cafenea: {self.name}"
     
-    def dictionar(slef):
+    def dictionar(self):
         d ={"name":self.name,
             "address": self.address,
             "price": self.price,
